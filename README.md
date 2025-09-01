@@ -49,6 +49,10 @@ The application features a modern, responsive interface with:
 - Mobile-friendly design
 - Real-time data updates
 
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/10744df4-88cd-4833-ae7c-b6954f470427" />
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/66da9a55-91b6-4aff-8d92-2119f8c63be6" />
+
+
 ## 📍 Getting Started
 
 ### 1. Clone the Repository
