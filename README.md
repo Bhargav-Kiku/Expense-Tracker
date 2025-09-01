@@ -49,8 +49,6 @@ The application features a modern, responsive interface with:
 - Mobile-friendly design
 - Real-time data updates
 
-## Demo Video Link - https://www.youtube.com/watch?v=RCZkITc9gkY
-
 ## 📍 Getting Started
 
 ### 1. Clone the Repository
