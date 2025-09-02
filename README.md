@@ -110,5 +110,4 @@ Feel free to fork the repo, submit issues, or send pull requests!
 
 ## 🙌 Acknowledgements
 
-- Inspiration from frontend mentor & budget tracking apps
 - Mongoose + Express documentation
