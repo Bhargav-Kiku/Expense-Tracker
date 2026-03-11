@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import DashboardLayout from "../../components/layouts/DashboardLayout";
+import DashboardLayout from "../../components/Layouts/DashboardLayout";
 
 import { useNavigate } from "react-router-dom";
 import { useUserAuth } from "../../hooks/useUserAuth";
 import axiosInstance from "../../utils/axiosInstance";
 import { API_PATHS } from "../../utils/apiPaths";
-import IncomeOverview from "../../components/Expense/ExpenseOverview";
-import ExpenseList from "../../components/Expense/ExpenseList";
 import ExpenseOverview from "../../components/Expense/ExpenseOverview";
+import ExpenseList from "../../components/Expense/ExpenseList";
 import AddExpenseForm from "../../components/Expense/AddExpenseForm";
 import DeleteAlert from "../../components/DeleteAlert";
 import Modal from "../../components/Modal";
@@ -109,7 +108,7 @@ const Expense = () => {
       const response = await axiosInstance.get(
         API_PATHS.EXPENSE.DOWNLOAD_EXPENSE,
         {
-          responseType: "blob", 
+          responseType: "blob",
         }
       );
 
@@ -117,11 +116,11 @@ const Expense = () => {
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement("a");
       link.href = url;
-      link.setAttribute("download", "expense_details.xlsx"); 
+      link.setAttribute("download", "expense_details.xlsx");
       document.body.appendChild(link);
       link.click();
       link.parentNode.removeChild(link);
-      window.URL.revokeObjectURL(url); 
+      window.URL.revokeObjectURL(url);
     } catch (error) {
       console.error("Error downloading expense details:", error);
       toast.error("Failed to download expense details. Please try again.");
@@ -131,7 +130,7 @@ const Expense = () => {
   useEffect(() => {
     fetchExpenseDetails();
 
-    return () => {};
+    return () => { };
   }, []);
 
   return (
