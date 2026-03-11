@@ -42,5 +42,8 @@
     "hase": {
       "amqplib": "^0.10.7"
     }
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
