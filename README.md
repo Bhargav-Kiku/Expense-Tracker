@@ -40,6 +40,16 @@ Expense-Tracker-Complete/
 ├── Documents/         # Project documentation
 └── README.md
 ```
+# <img width="260" height="245" alt="image" src="https://github.com/user-attachments/assets/c1905644-ff6e-42e6-8c48-443410554cd1" />
+
+# <img width="251" height="388" alt="image" src="https://github.com/user-attachments/assets/6c25845d-5532-4ba1-b008-e885219f6f66" />
+
+# <img width="254" height="219" alt="image" src="https://github.com/user-attachments/assets/29e1ea14-37be-4d8a-9005-d6bd0275f006" />
+
+# <img width="250" height="302" alt="image" src="https://github.com/user-attachments/assets/5700c61c-dbee-46e4-80c1-52e35587eee7" />
+
+
+
 
 ## 📸 Screenshots
 
@@ -49,7 +59,9 @@ The application features a modern, responsive interface with:
 - Mobile-friendly design
 - Real-time data updates
 
-## Demo Video Link - https://www.youtube.com/watch?v=RCZkITc9gkY
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/10744df4-88cd-4833-ae7c-b6954f470427" />
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/66da9a55-91b6-4aff-8d92-2119f8c63be6" />
+
 
 ## 📍 Getting Started
 
@@ -98,5 +110,4 @@ Feel free to fork the repo, submit issues, or send pull requests!
 
 ## 🙌 Acknowledgements
 
-- Inspiration from frontend mentor & budget tracking apps
 - Mongoose + Express documentation
